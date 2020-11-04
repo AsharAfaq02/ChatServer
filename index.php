@@ -1,4 +1,4 @@
-//CREATE A TABLE IN SQL NAMED 'TextChat' SQL: CREATE TABLE TextChat(Name VARCHAR(255), Text VARCHAR(255)); 
+//CREATE A TABLE IN SQL NAMED 'TextChat' SQL: CREATE TABLE textChat(Name VARCHAR(255), Text VARCHAR(255)); 
 
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -69,11 +69,11 @@ $servername = "127.0.0.1";
               $name = mysqli_real_escape_string($conn,$_REQUEST['Name'] ?? '') ;
                 $text = mysqli_real_escape_string($conn,$_REQUEST['Text'] ?? '') ;
                   if($name != NULL && $text != NULL){
-                      $chat= "INSERT INTO TextChat(Name, Text) VALUES ('$name','$text')";
+                      $chat= "INSERT INTO textChat(Name, Text) VALUES ('$name','$text')";
                         $conn->query($chat);
                     }
            
-                        $result = mysqli_query($conn,"SELECT * FROM TextChat");
+                        $result = mysqli_query($conn,"SELECT * FROM textChat");
 
   ?>
 

@@ -57,8 +57,8 @@
 
 $servername = "127.0.0.1";
   $username = "root";
-    $password = "AK7llv748";     
-      $dbname = "asharsDataBase";
+    $password = "*PASSWORD*";     
+      $dbname = "*DATABASE*";
   
         $conn = new mysqli($servername, $username, $password, $dbname);
      

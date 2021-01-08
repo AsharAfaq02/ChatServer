@@ -1,0 +1,1 @@
+CREATE TABLE textChat(Name VARCHAR(255), Text VARCHAR(255)); 

@@ -1,4 +1,4 @@
-//CREATE A TABLE IN SQL NAMED 'TextChat' SQL: CREATE TABLE textChat(Name VARCHAR(255), Text VARCHAR(255)); 
+
 
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
